@@ -1,6 +1,6 @@
 
 var to = 'meimei <3 ';
-var gift_url = 'https://www.facebook.com/seido.akira.7';
+var gift_url = 'https://tinyurl.com/29k8e2g3';
 var gift_image_url = 'MeimeiNe.jpg';
 
 
