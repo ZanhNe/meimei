@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../ThiepChoMei/CSS/canvas.css">
+    <link rel="stylesheet" href="../ThiepChoMei/CSS/present.css">
+    <link rel="stylesheet" href="../ThiepChoMei/CSS/index.css">
+    <link rel="stylesheet" href="../ThiepChoMei/CSS/card.css">
+</head>
+
+<body>
+    <div class="parent">
+        <canvas id="canvas"></canvas>
+        <section class="above-fold">
+            <div class="wrap-present">
+                <div class="present-box" id="present">
+                    <div class="present">
+                        <div class="img-wrap" id="present-image">
+
+                        </div>
+                    </div>
+                    <div class="side front"></div>
+                    <div class="side back"></div>
+                    <div class="side left"></div>
+                    <div class="side right"></div>
+                    <div class="side top">
+                        <span class="to">
+                            <span class="name" id="nametag">
+                            </span>
+                        </span>
+                    </div>
+                    <div class="side bottom"></div>
+                </div>
+            </div>
+            <p class="info-text">Click to Open</p>
+        </section>
+
+        <div id="card_1">
+            <h4>💘Trần Đỗ My💘</h4>
+
+            <img class="meimei" src="../ThiepChoMei/picture/Meimei.jpg">
+
+            <h4>Hiii lại là ZanhDev nè, nay 8/3 nè, chúc mọi điều tốt đẹp luôn đến với em nhoaaa - ngày càng xinh đẹp
+                hơn nữa, và cũng đừng quên mỗi khi có chuyện gì thì anh đều ở đây lắng nghe em nèe , iu em💘</h4>
+        </div>
+        <div id="card_2">
+            <h4>💘Đôi lời gửi gắm💘</h4>
+
+
+
+            <h4>hjhj, anh suy nghĩ rất nhiều về việc mình nên làm gì đó cho em vào ngày 8/3 này, suy nghĩ nhiều lắm
+                luôn, nào là mình có nên mua quà hay mua hoa gì hong ta? hay là mình nên rủ em ấy đi đây đi đó bla bla,
+                nhưng cho đến hôm nay thì anh mới nhận ra, khoảnh khắc mà mình rung động lần đầu khi gặp em vốn dĩ xuất
+                phát từ cảm xúc chứ không phải hiện vật, hay là những cuộc gặp gỡ được sắp đặt từ trước, nên anh mới
+                quyết định làm ra cái nì để dành tặng cho em, tuy nó nhỏ thui , không có to lớn như mấy món quà của các
+                cặp đôi khác dành tặng cho nhau, nhưng đây là tâm huyết và những gì anh đặt vào bên trong nó để dành
+                tặng cho em hehe
+                , và anh cũng coi như việc gặp được em là một khoảnh khắc đáng giá nhất trong thước phim của cuộc đời,
+                vì em đến lúc anh không ngờ nhất, chính bản thân anh còn không nhận ra được mình đã thay đổi như thế nào
+                kể từ khi gặp được em
+                . Cho nên anh nghĩ em cũng biết rõ vị trí của em đối với anh như nào mà đúng hơm!!!
+                Nay 8/3 anh sẵn có cơ hội để bày tỏ thêm một lần nữa những gì mình đang có trong suy nghĩ, và kể cả về
+                chính mối quan hệ này.
+                Nói cũng dài roài, tóm lại là : Cảm ơn em gấc nhiều💘</h4>
+        </div>
+    </div>
+    <audio id="backgroundMusic" autoplay loop style="display:none">
+        <source src="../ThiepChoMei/music/music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+<script>
+    window.addEventListener('click', function () {
+        // Lấy đối tượng âm thanh
+        var audio = document.getElementById('backgroundMusic');
+        // Phát âm thanh khi trang đã tải hoàn toàn
+        audio.play();
+    });
+</script>
+<script src="../ThiepChoMei/JS/canvas.js"></script>
+<script src="../ThiepChoMei/JS/present.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+
+</html>
